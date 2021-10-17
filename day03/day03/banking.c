@@ -27,12 +27,24 @@ int main() {
 			printf("출금액 >");
 			scanf_s("%d", &money);
 			//balance -= money; // 잔고가 마이너스가 되지 않도록 (잔액이 부족합니다)
-			if (money > balance) {
-				printf("잔액이 부족합니다.\n");
-			}
-			else {
-				balance -= money;
-				printf("잔고 : %d\n", balance);
+			/*while (money > balance) {
+				printf("잔액을 초과했습니다. 다시 입력해주세요.\n");
+				printf("출금액 >");
+				scanf_s("%d", &money);
+			}*/
+			while (sw) {
+				printf("출금액 >");
+				scanf_s("%d", &money);
+				if (money > balance) {
+					printf("잔액을 초과했습니다. 다시 입력해주세요.\n");
+				}
+
+				else {
+					balance -= money;
+					
+					printf("정상 처리되었습니다.\n잔고 : %d\n", balance);
+					break;
+				}
 			}
 		}
 		else if (selNo == 3) {
