@@ -1,6 +1,6 @@
 #include <stdio.h>
 void sayHello(); //프로토타입<자료형 함수이름()>
-void sayHello2(char[]);
+void sayHello2(char[]); //프로토타입<자료형 함수이름(자료형)>
 int main() {
 
 	sayHello(); //함수 호출
@@ -11,7 +11,7 @@ int main() {
 
 
 //void는 반환 자료가 없다.
-void sayHello() { //sayHello 라는 이름의 함수 정의
+void sayHello() { //sayHello 라는 이름의 함수 정의, void : return X
 	printf("Hello~ C!\n");
 }
 

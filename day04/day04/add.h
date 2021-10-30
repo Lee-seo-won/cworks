@@ -1,3 +1,3 @@
 //add.h
-int add(int, int);
+int add_func(int, int);
 

@@ -10,7 +10,7 @@ void count() {
 
 int main() {
 
-	count();
+	count(); //x 계산 후 소멸 (해제 _ 지역변수), y 는 소멸되지 않고 유지됨 (static_정적변수)
 	count();
 	count();
 	count();

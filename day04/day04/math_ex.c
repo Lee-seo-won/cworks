@@ -2,8 +2,8 @@
 #include <math.h>
 int main() {
 	//절대값 계산하기
-	printf("%d\n", abs(3));
-	printf("%d\n", abs(-3));
+	printf("%d\n", abs(3)); //3
+	printf("%d\n", abs(-3)); //3
 
 	//반올림 
 	printf("%.1f\n", round(2.54));  //3.0
