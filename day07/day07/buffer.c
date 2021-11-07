@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
 	int age;
@@ -16,4 +16,4 @@ int main() {
 	printf("ÀÌ¸§ : %s\n", name);
 
 	return 0;
-}
+}*/
